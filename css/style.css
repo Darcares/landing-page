@@ -47,11 +47,14 @@ body {
 .intro {
     display: flex;
     justify-content: space-between;
+    gap: 48px;
 }
 
 .intro.text {
     display: flex;
     flex-direction: column;
+    width: 450px;
+    gap: 0;
 }
 
 .intro.text.main {
@@ -68,4 +71,5 @@ button {
 .image {
     background-color: grey;
     color: whitesmoke;
+    flex: auto;
 }
