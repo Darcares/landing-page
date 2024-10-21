@@ -77,7 +77,6 @@ button {
 .image {
     background-color: grey;
     color: whitesmoke;
-    flex: auto;
     display: flex;
     flex: 1;
     justify-content: center;
