@@ -53,8 +53,8 @@ body {
 
 .intro.text {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    width: 450px;
     gap: 0;
     align-items: flex-start;
 }
@@ -79,6 +79,7 @@ button {
     color: whitesmoke;
     flex: auto;
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
 }
