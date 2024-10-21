@@ -3,11 +3,34 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
     font-family: Roboto, Tahoma, sans-serif;
 }
 
 .first-part {
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
+}
+
+.first-part,
+.second-part,
+.third-part,
+.fourth-part {
+    padding: 0 190px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
 }
 
 .logo {
@@ -16,12 +39,22 @@ body {
 }
 
 .links,
-.intro.secondary {
+.intro.text.secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.intro.main {
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro.text.main {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -32,7 +65,7 @@ button {
     color: #FFFFFF;
 }
 
-.intro.image {
+.image {
     background-color: grey;
     color: whitesmoke;
 }
