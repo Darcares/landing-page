@@ -3,3 +3,34 @@
 body {
     font-family: Roboto, Tahoma, sans-serif;
 }
+
+.first-part {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links,
+.intro.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    color: #FFFFFF;
+}
+
+.intro.image {
+    background-color: grey;
+    color: whitesmoke;
+}
