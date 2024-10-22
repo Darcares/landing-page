@@ -18,7 +18,7 @@ body {
 .second-part,
 .third-part,
 .fourth-part {
-    padding: 0 450px;
+    padding: 0 25vw;
     flex: 1;
 }
 
