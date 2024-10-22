@@ -97,14 +97,18 @@ button {
 
 .gallery {
     display: flex;
+    flex: 1;
     flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
 }
 
 .illustration {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    gap: 24px;
 }
 .square {
-    border: 5px solid #3882F6;
+    flex: 1;
+    border: 2px solid #3882F6;
 }
