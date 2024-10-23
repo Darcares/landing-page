@@ -114,3 +114,20 @@ button {
 }
 
 /* third part format */
+.third-part {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.thor {
+    font-weight: 900;
+    align-self: flex-end;
+}
