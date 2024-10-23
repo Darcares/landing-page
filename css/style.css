@@ -138,6 +138,12 @@ button {
 .fourth-part {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-container {
+  display: flex;
 }
 /* CSS classes of Roboto font from Google Fonts*/
 .roboto-thin {
