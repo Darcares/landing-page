@@ -93,6 +93,12 @@ button {
     align-items: center;
 }
 
+.information {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 .gallery {
     display: flex;
     flex: 1;
@@ -120,7 +126,6 @@ button {
 }
 
 .quote {
-    font-family: Roboto-light-italic;
     font-size: 36px;
     color: #1f2937;
 }
