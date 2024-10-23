@@ -17,7 +17,6 @@ body {
 .third-part,
 .fourth-part {
     padding: 0 25vw;
-    display: flex;
     flex: 1;
 }
 
@@ -136,7 +135,10 @@ button {
 }
 
 /* fourth-part format */
-
+.fourth-part {
+  display: flex;
+  flex-direction: column;
+}
 /* CSS classes of Roboto font from Google Fonts*/
 .roboto-thin {
     font-family: "Roboto", serif;
