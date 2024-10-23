@@ -6,6 +6,13 @@ body {
     font-family: Roboto;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  padding: 0 25vw;
+}
+
 .first-part {
     display: flex;
     flex-direction: column;
@@ -18,11 +25,6 @@ body {
 .fourth-part {
     padding: 0 25vw;
     flex: 1;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
 }
 
 .links {
@@ -40,7 +42,8 @@ body {
 }
 
 .links,
-.intro.text.secondary {
+.intro.text.secondary,
+.footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -150,6 +153,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1F2937;
+  color: ;
 }
 /* CSS classes of Roboto font from Google Fonts*/
 .roboto-thin {
