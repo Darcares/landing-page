@@ -145,6 +145,12 @@ button {
 .blue-container {
   display: flex;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* CSS classes of Roboto font from Google Fonts*/
 .roboto-thin {
     font-family: "Roboto", serif;
