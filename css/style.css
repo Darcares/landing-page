@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: Roboto;
 }
 
@@ -49,7 +49,7 @@ button,
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 0 25vw;
+  /* padding: 0 25vw; */
 }
 
 /* first-part format */
@@ -58,13 +58,13 @@ button,
     flex-direction: column;
 }
 
-.first-part,
+/* .first-part,
 .second-part,
 .third-part,
 .fourth-part {
     padding: 0 25vw;
     flex: 1;
-}
+} */
 
 .links {
     display: flex;
