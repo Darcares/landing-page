@@ -6,17 +6,56 @@ body {
     font-family: Roboto;
 }
 
+/* Shared formats */
+.header,
+.footer,
+.first-part {
+  background-color: #1F2937;
+}
+
+.links,
+.intro.text.secondary,
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo,
+.intro.text.main,
+button,
+.call-to-action,
+.image {
+  color: #F9FAF8;
+}
+
+button {
+  font-weight: 900;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px 24px;
+}
+
+button,
+.blue-container {
+  background-color: #3882F6;
+}
+
+.information,
+.quote {
+  color: #1F2937;
+}
+
+/* header format */
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #1F2937;
   padding: 0 25vw;
 }
 
+/* first-part format */
 .first-part {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
 }
 
 .first-part,
@@ -37,15 +76,7 @@ body {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: 900;
-}
-
-.links,
-.intro.text.secondary,
-.footer {
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 .intro {
@@ -64,22 +95,11 @@ body {
 
 .intro.text.main {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
-}
-
-button {
-    background-color: #3882F6;
-    color: #FFFFFF;
-    font-weight: 900;
-    border: 0;
-    border-radius: 5px;
-    padding: 8px 24px;
 }
 
 .image {
     background-color: grey;
-    color: whitesmoke;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -98,7 +118,6 @@ button {
 .information {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
 }
 
 .gallery {
@@ -129,7 +148,6 @@ button {
 
 .quote {
     font-size: 36px;
-    color: #1f2937;
 }
 
 .thor {
@@ -149,12 +167,14 @@ button {
   display: flex;
 }
 
+/* footer format */
 .footer {
+  font-size: initial;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1F2937;
 }
+
 /* CSS classes of Roboto font from Google Fonts*/
 .roboto-thin {
     font-family: "Roboto", serif;
