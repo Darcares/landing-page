@@ -13,6 +13,12 @@ body {
   background-color: #1F2937;
 }
 
+.header,
+.first-part {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
 .links,
 .intro.text.secondary,
 .footer {
@@ -50,23 +56,10 @@ button,
   display: flex;
   justify-content: space-between;
   /* padding: 0 25vw; */
-}
+  padding-top: 20px;
+  padding-bottom: 20px;
 
-/* first-part format */
-.first-part {
-    display: flex;
-    flex-direction: column;
-}
-
-/* .first-part,
-.second-part,
-.third-part,
-.fourth-part {
-    padding: 0 25vw;
-    flex: 1;
-} */
-
-.links {
+  .links {
     display: flex;
     list-style: none;
     margin: 0;
@@ -78,9 +71,28 @@ button,
     font-size: 24px;
     font-weight: 900;
 }
+}
+
+/* first-part format */
+.first-part {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* .first-part,
+.second-part,
+.third-part,
+.fourth-part {
+    padding: 0 25vw;
+    flex: 1;
+} */
 
 .intro {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     gap: 48px;
 }
@@ -91,11 +103,16 @@ button,
     flex-direction: column;
     gap: 0;
     align-items: flex-start;
+    justify-content: center;
 }
 
 .intro.text.main {
     font-size: 48px;
     font-weight: 900;
+}
+
+.intro.text button {
+  margin-top: 10px
 }
 
 .image {
