@@ -166,7 +166,10 @@ button,
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
+    height: 450px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
 .quote {
