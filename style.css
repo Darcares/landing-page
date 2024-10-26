@@ -91,6 +91,48 @@ button {
     align-items: center;
     align-self: stretch;
 }
+
+.section-two {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.gallery {
+    display: flex;
+    gap: 56px;
+}
+
+.illustration {
+    width: 150px;
+}
+
+.frame {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+.subtext {
+    text-align: center;
+}
+
 /* Roboto font variations*/
 .roboto-thin {
     font-family: "Roboto", sans-serif;
