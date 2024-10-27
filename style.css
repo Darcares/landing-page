@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    width: 1400px;
+    width: 1200px;
 }
 
 .logo,
@@ -76,7 +76,7 @@ li,
     justify-content: space-between;
     align-items: center;
     height: 300px;
-    width: 1400px;
+    width: 1200px;
     gap:90px
 }
 
@@ -90,6 +90,7 @@ li,
 
 button {
     background: #3882F6;
+    margin-top: 10px;
 }
 
 .image {
@@ -186,6 +187,7 @@ button {
 
 .section-four button {
     border: 2px solid #F9FAF8;
+    margin: 0;
 }
 /* Roboto font variations*/
 .roboto-thin {
