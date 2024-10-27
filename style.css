@@ -133,6 +133,27 @@ button {
     text-align: center;
 }
 
+.section-three {
+    height: 450px;
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 800px;
+}
+
+.author {
+    font-weight: 900;
+    text-align: right;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
 /* Roboto font variations*/
 .roboto-thin {
     font-family: "Roboto", sans-serif;
