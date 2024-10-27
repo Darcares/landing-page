@@ -100,11 +100,12 @@ button {
 }
 
 .info-container {
+    height: inherit;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 54px;
+    justify-content: space-evenly;
+    
 }
 
 .info {
@@ -125,11 +126,13 @@ button {
 .frame {
     height: 150px;
     width: 150px;
+    margin-bottom: 4px;
     border: 4px solid #3882F6;
     border-radius: 15px;
 }
 
 .subtext {
+    margin-top: 4px;
     text-align: center;
 }
 
