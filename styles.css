@@ -78,3 +78,15 @@ button  {
     border-radius: 10px;
     margin-top: 8px;
 }
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    outline: 2px solid blue;
+}
