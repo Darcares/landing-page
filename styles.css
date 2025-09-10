@@ -136,3 +136,8 @@ button  {
     color: #1F2937;
     text-align: end;
 }
+
+.section-four {
+    height: 300px;
+    padding: 0px 300px;
+}
