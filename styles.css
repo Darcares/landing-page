@@ -114,3 +114,25 @@ button  {
     display: flex;
     gap: 35px;
 }
+
+.section-three {
+    height: 400px;
+    padding: 0px 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 900;
+    color: #1F2937;
+    text-align: end;
+}
