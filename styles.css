@@ -79,6 +79,15 @@ button  {
     margin-top: 8px;
 }
 
+.section-two {
+    height: 400px;
+    padding: 0px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .info-header {
     font-size: 36px;
     color: #1F2937;
@@ -88,5 +97,20 @@ button  {
 .square {
     width: 200px;
     height: 200px;
-    outline: 2px solid blue;
+    outline: 3px solid #3882F6;
+    border-radius: 20px;
+}
+
+.squares-container {
+    text-align: center;
+}
+
+.description {
+    margin-top: 10px;
+    width: 200px;
+}
+
+.info-container {
+    display: flex;
+    gap: 35px;
 }
